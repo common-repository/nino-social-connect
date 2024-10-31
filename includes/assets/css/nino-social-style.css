@@ -1,0 +1,849 @@
+/* ============================== NINO SOCIAL COMMON DEFINE ============================== */
+[class*="nino-social-icon-"] {
+	display: inline-block;
+	margin: 5px;
+	text-indent: -99999em;
+	text-align: left;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.nino-size-32 [class*="nino-social-icon-"] {
+	width: 32px;
+	height: 33px;
+}
+.nino-size-46 [class*="nino-social-icon-"] {
+	width: 46px;
+	height: 47px;
+}
+.nino-size-64 [class*="nino-social-icon-"] {
+	width: 64px;
+	height: 65px;
+}
+.nino-align-left {
+	text-align: left !important;
+}
+.nino-align-center {
+	text-align: center !important;
+}
+.nino-align-right {
+	text-align: right !important;
+}
+/* ============================== NINO SOCIAL ICONS STYLE ============================== */
+/* =============== ICONS STYLE 1 / simpleicons.org =============== */
+.nino-size-32.nino-social-style-1 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-1-32.png);
+}
+.nino-size-46.nino-social-style-1 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-1-46.png);
+}
+.nino-size-64.nino-social-style-1 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-1-64.png);
+}
+/* =============== ICONS STYLE 2 / picons.me/download-social.php =============== */
+.nino-size-32.nino-social-style-2 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-2-32.png);
+}
+.nino-size-46.nino-social-style-2 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-2-46.png);
+}
+.nino-size-64.nino-social-style-2 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-2-64.png);
+}
+/* =============== ICONS STYLE 3 / picons.me/download-social.php =============== */
+.nino-size-32.nino-social-style-3 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-3-32.png);
+}
+.nino-size-46.nino-social-style-3 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-3-46.png);
+}
+.nino-size-64.nino-social-style-3 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-3-64.png);
+}
+/* =============== ICONS STYLE 4 / pepsized.com/90-social-clouds-v2 =============== */
+.nino-size-32.nino-social-style-4 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-4-32.png);
+}
+.nino-size-46.nino-social-style-4 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-4-46.png);
+}
+.nino-size-64.nino-social-style-4 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-4-64.png);
+}
+/* =============== ICONS STYLE 5 / picons.me/download-social.php =============== */
+.nino-size-32.nino-social-style-5 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-5-32.png);
+}
+.nino-size-46.nino-social-style-5 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-5-46.png);
+}
+.nino-size-64.nino-social-style-5 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-5-64.png);
+}
+/* =============== ICONS STYLE 6 =============== */
+.nino-size-32.nino-social-style-6 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-6-32.png);
+}
+.nino-size-46.nino-social-style-6 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-6-46.png);
+}
+.nino-size-64.nino-social-style-6 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-6-64.png);
+}
+/* =============== ICONS STYLE 7 / dryicons.com =============== */
+.nino-size-32.nino-social-style-7 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-7-32.png);
+}
+.nino-size-46.nino-social-style-7 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-7-46.png);
+}
+.nino-size-64.nino-social-style-7 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-7-64.png);
+}
+/* =============== ICONS STYLE 8 / designdeck.co.uk =============== */
+.nino-size-32.nino-social-style-8 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-8-32.png);
+}
+.nino-size-46.nino-social-style-8 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-8-46.png);
+}
+.nino-size-64.nino-social-style-8 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-8-64.png);
+}
+/* =============== ICONS STYLE 9 / designdeck.co.uk =============== */
+.nino-size-32.nino-social-style-9 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-9-32.png);
+}
+.nino-size-46.nino-social-style-9 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-9-46.png);
+}
+.nino-size-64.nino-social-style-9 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-9-64.png);
+}
+/* =============== ICONS STYLE 10 / designbolts.com =============== */
+.nino-size-32.nino-social-style-10 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-10-32.png);
+}
+.nino-size-46.nino-social-style-10 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-10-46.png);
+}
+.nino-size-64.nino-social-style-10 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-10-64.png);
+}
+/* =============== ICONS STYLE 11 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-11 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-11-32.png);
+}
+.nino-size-46.nino-social-style-11 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-11-46.png);
+}
+.nino-size-64.nino-social-style-11 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-11-64.png);
+}
+/* =============== ICONS STYLE 12 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-12 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-12-32.png);
+}
+.nino-size-46.nino-social-style-12 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-12-46.png);
+}
+.nino-size-64.nino-social-style-12 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-12-64.png);
+}
+/* =============== ICONS STYLE 13 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-13 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-13-32.png);
+}
+.nino-size-46.nino-social-style-13 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-13-46.png);
+}
+.nino-size-64.nino-social-style-13 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-13-64.png);
+}
+/* =============== ICONS STYLE 14 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-14 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-14-32.png);
+}
+.nino-size-46.nino-social-style-14 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-14-46.png);
+}
+.nino-size-64.nino-social-style-14 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-14-64.png);
+}
+/* =============== ICONS STYLE 15 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-15 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-15-32.png);
+}
+.nino-size-46.nino-social-style-15 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-15-46.png);
+}
+.nino-size-64.nino-social-style-15 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-15-64.png);
+}
+/* =============== ICONS STYLE 16 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-16 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-16-32.png);
+}
+.nino-size-46.nino-social-style-16 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-16-46.png);
+}
+.nino-size-64.nino-social-style-16 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-16-64.png);
+}
+/* =============== ICONS STYLE 17 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-17 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-17-32.png);
+}
+.nino-size-46.nino-social-style-17 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-17-46.png);
+}
+.nino-size-64.nino-social-style-17 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-17-64.png);
+}
+/* =============== ICONS STYLE 18 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-18 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-18-32.png);
+}
+.nino-size-46.nino-social-style-18 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-18-46.png);
+}
+.nino-size-64.nino-social-style-18 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-18-64.png);
+}
+/* =============== ICONS STYLE 19 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-19 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-19-32.png);
+}
+.nino-size-46.nino-social-style-19 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-19-46.png);
+}
+.nino-size-64.nino-social-style-19 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-19-64.png);
+}
+/* =============== ICONS STYLE 20 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-20 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-20-32.png);
+}
+.nino-size-46.nino-social-style-20 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-20-46.png);
+}
+.nino-size-64.nino-social-style-20 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-20-64.png);
+}
+/* =============== ICONS STYLE 21 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-21 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-21-32.png);
+}
+.nino-size-46.nino-social-style-21 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-21-46.png);
+}
+.nino-size-64.nino-social-style-21 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-21-64.png);
+}
+/* =============== ICONS STYLE 22 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-22 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-22-32.png);
+}
+.nino-size-46.nino-social-style-22 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-22-46.png);
+}
+.nino-size-64.nino-social-style-22 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-22-64.png);
+}
+/* =============== ICONS STYLE 23 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-23 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-23-32.png);
+}
+.nino-size-46.nino-social-style-23 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-23-46.png);
+}
+.nino-size-64.nino-social-style-23 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-23-64.png);
+}
+/* =============== ICONS STYLE 24 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-24 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-24-32.png);
+}
+.nino-size-46.nino-social-style-24 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-24-46.png);
+}
+.nino-size-64.nino-social-style-24 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-24-64.png);
+}
+/* =============== ICONS STYLE 25 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-25 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-25-32.png);
+}
+.nino-size-46.nino-social-style-25 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-25-46.png);
+}
+.nino-size-64.nino-social-style-25 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-25-64.png);
+}
+/* =============== ICONS STYLE 26 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-26 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-26-32.png);
+}
+.nino-size-46.nino-social-style-26 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-26-46.png);
+}
+.nino-size-64.nino-social-style-26 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-26-64.png);
+}
+/* =============== ICONS STYLE 27 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-27 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-27-32.png);
+}
+.nino-size-46.nino-social-style-27 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-27-46.png);
+}
+.nino-size-64.nino-social-style-27 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-27-64.png);
+}
+/* =============== ICONS STYLE 28 / uiconstock.com =============== */
+.nino-size-32.nino-social-style-28 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-28-32.png);
+}
+.nino-size-46.nino-social-style-28 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-28-46.png);
+}
+.nino-size-64.nino-social-style-28 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-28-64.png);
+}
+/* =============== ICONS STYLE 29 / designbolts.com =============== */
+.nino-size-32.nino-social-style-29 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-29-32.png);
+}
+.nino-size-46.nino-social-style-29 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-29-46.png);
+}
+.nino-size-64.nino-social-style-29 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-29-64.png);
+}
+/* =============== ICONS STYLE 30 / graphicburger.com =============== */
+.nino-size-32.nino-social-style-30 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-30-32.png);
+}
+.nino-size-46.nino-social-style-30 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-30-46.png);
+}
+.nino-size-64.nino-social-style-30 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-30-64.png);
+}
+/* =============== ICONS STYLE 31 / designbolts.com =============== */
+.nino-size-32.nino-social-style-31 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-31-32.png);
+}
+.nino-size-46.nino-social-style-31 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-31-46.png);
+}
+.nino-size-64.nino-social-style-31 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-31-64.png);
+}
+/* =============== ICONS STYLE 32 / designbolts.com =============== */
+.nino-size-32.nino-social-style-32 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-32-32.png);
+}
+.nino-size-46.nino-social-style-32 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-32-46.png);
+}
+.nino-size-64.nino-social-style-32 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-32-64.png);
+}
+/* =============== ICONS STYLE 33 / designbolts.com =============== */
+.nino-size-32.nino-social-style-33 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-33-32.png);
+}
+.nino-size-46.nino-social-style-33 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-33-46.png);
+}
+.nino-size-64.nino-social-style-33 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-33-64.png);
+}
+/* =============== ICONS STYLE 34 / designbolts.com =============== */
+.nino-size-32.nino-social-style-34 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-34-32.png);
+}
+.nino-size-46.nino-social-style-34 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-34-46.png);
+}
+.nino-size-64.nino-social-style-34 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-34-64.png);
+}
+/* =============== ICONS STYLE 35 / designbolts.com =============== */
+.nino-size-32.nino-social-style-35 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-35-32.png);
+}
+.nino-size-46.nino-social-style-35 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-35-46.png);
+}
+.nino-size-64.nino-social-style-35 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-35-64.png);
+}
+/* =============== ICONS STYLE 36 / designbolts.com =============== */
+.nino-size-32.nino-social-style-36 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-36-32.png);
+}
+.nino-size-46.nino-social-style-36 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-36-46.png);
+}
+.nino-size-64.nino-social-style-36 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-36-64.png);
+}
+/* =============== ICONS STYLE 37 / designbolts.com =============== */
+.nino-size-32.nino-social-style-37 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-37-32.png);
+}
+.nino-size-46.nino-social-style-37 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-37-46.png);
+}
+.nino-size-64.nino-social-style-37 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-37-64.png);
+}
+/* =============== ICONS STYLE 38 / designbolts.com =============== */
+.nino-size-32.nino-social-style-38 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-38-32.png);
+}
+.nino-size-46.nino-social-style-38 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-38-46.png);
+}
+.nino-size-64.nino-social-style-38 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-38-64.png);
+}
+/* =============== ICONS STYLE 39 / designbolts.com =============== */
+.nino-size-32.nino-social-style-39 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-39-32.png);
+}
+.nino-size-46.nino-social-style-39 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-39-46.png);
+}
+.nino-size-64.nino-social-style-39 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-39-64.png);
+}
+/* =============== ICONS STYLE 40 / designbolts.com =============== */
+.nino-size-32.nino-social-style-40 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-40-32.png);
+}
+.nino-size-46.nino-social-style-40 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-40-46.png);
+}
+.nino-size-64.nino-social-style-40 [class*="nino-social-icon-"] {
+	background-image: url(../images/nino-social-sprite-style-40-64.png);
+}
+/* ============================== NINO ICONS CSS3 EFFECT ============================== */
+[class*="nino-css3-style-"] [class*="nino-social-icon-"],
+[class*="nino-css3-style-"] [class*="nino-social-icon-"] span {
+	position: relative;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+}
+.nino-css3-style-0 [class*="nino-social-icon-"] span,
+.nino-css3-style-1 [class*="nino-social-icon-"] span,
+.nino-css3-style-2 [class*="nino-social-icon-"] span {
+	position: absolute;		
+}
+/* =============== CSS3 EFFECT 1 =============== */
+.nino-css3-style-1 [class*="nino-social-icon-"] {	
+	top: 0;	
+}
+.nino-css3-style-1 [class*="nino-social-icon-"]:hover {
+	top: -10px;
+}
+/* =============== CSS3 EFFECT 2 =============== */
+.nino-css3-style-2 [class*="nino-social-icon-"] {
+	opacity: 0.7;
+}
+.nino-css3-style-2 [class*="nino-social-icon-"]:hover {
+	opacity: 1;
+}
+/* =============== CSS3 EFFECT 3 =============== */
+.nino-css3-style-3 [class*="nino-social-icon-"] span {
+	width: 100px;
+	height: auto;
+	line-height: 20px;
+	padding: 10px;
+	left: 50%;
+	margin-left: -64px;
+	font-family: Georgia, serif;
+	font-weight: 400;	
+	font-style: italic;
+	font-size: 14px;
+	color: #719DAB;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 4px solid #fff;
+	background: rgba(255,255,255,0.3);
+	text-indent: 0px;
+	border-radius: 5px;
+	position: absolute;
+	pointer-events: none;
+	bottom: 100px;
+	opacity: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);	
+}
+.nino-css3-style-3 [class*="nino-social-icon-"] span:before,
+.nino-css3-style-3 [class*="nino-social-icon-"] span:after {
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0,0,0,0.1);
+}
+.nino-css3-style-3 [class*="nino-social-icon-"] span:after {
+	bottom: -14px;
+	margin-left: -10px;
+	border-top: 10px solid #fff;
+}
+.nino-css3-style-3 [class*="nino-social-icon-"]:hover span {
+	opacity: 0.9;
+}
+.nino-size-32.nino-css3-style-3 [class*="nino-social-icon-"]:hover span {
+	bottom: 38px;
+}
+.nino-size-46.nino-css3-style-3 [class*="nino-social-icon-"]:hover span {
+	bottom: 53px;
+}
+.nino-size-64.nino-css3-style-3 [class*="nino-social-icon-"]:hover span {
+	bottom: 70px;
+}
+/* =============== CSS3 EFFECT 4 =============== */
+.nino-css3-style-4 [class*="nino-social-icon-"] span {
+	width: 100px;
+	height: 100px;
+	line-height: 20px;
+	padding-top: 30px;
+	left: 50%;
+	margin-left: -50px;
+	font-family: Georgia, serif;
+	font-weight: 400;	
+	font-style: italic;
+	font-size: 14px;
+	color: #719DAB;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 5px solid #fff;
+	background: rgba(255,255,255,0.5);
+	text-indent: 0px;
+	position: absolute;
+	pointer-events: none;
+	border-radius: 50%;
+	bottom: -40px;
+	opacity: 0;
+	box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;  
+	-webkit-transform: scale(0.2);
+	   -moz-transform: scale(0.2);
+		 -o-transform: scale(0.2);
+		-ms-transform: scale(0.2);
+			transform: scale(0.2);
+}
+.nino-css3-style-4 [class*="nino-social-icon-"]:hover span {
+	opacity: 0.9;	
+	-webkit-transform: scale(1);
+	   -moz-transform: scale(1);
+		 -o-transform: scale(1);
+		-ms-transform: scale(1);
+			transform: scale(1);
+}
+.nino-size-32.nino-css3-style-4 [class*="nino-social-icon-"]:hover span {
+	bottom: 28px;
+}
+.nino-size-46.nino-css3-style-4 [class*="nino-social-icon-"]:hover span {
+	bottom: 36px;
+}
+.nino-size-64.nino-css3-style-4 [class*="nino-social-icon-"]:hover span {
+	bottom: 50px;
+}
+/* =============== CSS3 EFFECT 5 =============== */
+.nino-css3-style-5 [class*="nino-social-icon-"] span {
+	width: 80px;
+	height: auto;
+	padding: 10px;
+	left: 50%;
+	margin-left: -55px;
+	font-family: Georgia, serif;
+	font-weight: 400;	
+	font-style: italic;
+	font-size: 14px;
+	color: #719DAB;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 5px solid #fff;
+	background: rgba(255,255,255,0.5);
+	text-indent: 0px;
+	position: absolute;
+	pointer-events: none;
+	bottom: -40px;
+	opacity: 0;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+	-webkit-transform: rotate(0deg) scale(0);
+	   -moz-transform: rotate(0deg) scale(0);
+		 -o-transform: rotate(0deg) scale(0);
+		-ms-transform: rotate(0deg) scale(0);
+			transform: rotate(0deg) scale(0);
+}
+.nino-css3-style-5 [class*="nino-social-icon-"]:hover span {
+	opacity: 0.9;	
+	-webkit-transform: rotate(-90deg) scale(1);
+	   -moz-transform: rotate(-90deg) scale(1);
+		 -o-transform: rotate(-90deg) scale(1);
+		-ms-transform: rotate(-90deg) scale(1);
+			transform: rotate(-90deg) scale(1);
+}
+.nino-size-32.nino-css3-style-5 [class*="nino-social-icon-"]:hover span {
+	bottom: 70px;
+}
+.nino-size-46.nino-css3-style-5 [class*="nino-social-icon-"]:hover span {
+	bottom: 85px;
+}
+.nino-size-64.nino-css3-style-5 [class*="nino-social-icon-"]:hover span {
+	bottom: 100px;
+}
+/* =============== CSS3 EFFECT 6 =============== */
+.nino-css3-style-6 [class*="nino-social-icon-"] span {
+	width: 100px;
+	height: auto;
+	line-height: 20px;
+	padding: 10px;
+	left: 50%;
+	margin-left: -64px;
+	font-family: Georgia, serif;
+	font-weight: 400;	
+	font-style: italic;
+	font-size: 14px;
+	color: #719DAB;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: 4px solid #fff;
+	background: rgba(255,255,255,0.3);
+	text-indent: 0px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 70px;
+	opacity: 0;
+	visibility: visible;
+	pointer-events: none;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	-webkit-transform: translate(35px) rotate(25deg) scale(1.5);
+	   -moz-transform: translate(35px) rotate(25deg) scale(1.5);
+		 -o-transform: translate(35px) rotate(25deg) scale(1.5);
+		-ms-transform: translate(35px) rotate(25deg) scale(1.5);
+			transform: translate(35px) rotate(25deg) scale(1.5);
+}
+.nino-size-32.nino-css3-style-6 [class*="nino-social-icon-"] span {
+	bottom: 38px;
+}
+.nino-size-46.nino-css3-style-6 [class*="nino-social-icon-"] span {
+	bottom: 53px;
+}
+.nino-size-64.nino-css3-style-6 [class*="nino-social-icon-"] span {
+	bottom: 70px;
+}
+.nino-css3-style-6 [class*="nino-social-icon-"] span:before,
+.nino-css3-style-6 [class*="nino-social-icon-"] span:after {
+	content: '';
+	position: absolute;
+	bottom: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid rgba(0,0,0,0.1);
+}
+.nino-css3-style-6 [class*="nino-social-icon-"] span:after {
+	bottom: -14px;
+	margin-left: -10px;
+	border-top: 10px solid #fff;
+}
+.nino-css3-style-6 [class*="nino-social-icon-"]:hover span {
+	visibility: visible;
+	opacity: 0.9;
+	-webkit-transform: translate(0px) rotate(0deg) scale(1);
+	   -moz-transform: translate(0px) rotate(0deg) scale(1);
+		 -o-transform: translate(0px) rotate(0deg) scale(1);
+		-ms-transform: translate(0px) rotate(0deg) scale(1);
+			transform: translate(0px) rotate(0deg) scale(1);
+}
+/* =============== CSS3 EFFECT 7 =============== */
+.nino-css3-style-7 [class*="nino-social-icon-"] {
+	position: relative;
+	text-indent: 0px;
+}
+.nino-css3-style-7 [class*="nino-social-icon-"] span {
+	position: absolute;
+	bottom: 75px;
+	left: 50%;
+	margin-left: -55px;
+	text-align: center;
+	width: 100px;
+	color: #fff;
+	background: #000;
+	border-radius: 5px;
+	padding: 8px 5px;
+	opacity: 0;
+	visibility: hidden;
+}
+.nino-css3-style-7 [class*="nino-social-icon-"] span:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #000;
+	left: 50%;
+	bottom: -8px;
+	margin-left: -8px;
+}
+.nino-css3-style-7 [class*="nino-social-icon-"]:hover span {
+	opacity: 1;
+	visibility: visible;
+}
+/* =============== CSS3 EFFECT 8 =============== */
+.nino-css3-style-8 [class*="nino-social-icon-"]:hover {
+	-webkit-transform: scale(1.2,1.2);
+	    -ms-transform: scale(1.2,1.2);
+			transform: scale(1.2,1.2);
+}
+/* ============================== NINO SOCIAL ICONS POSITION ============================== */
+/* =============== ICON 32 =============== */
+.nino-size-32 .nino-social-icon-aim { background-position: 0 0; }
+.nino-size-32 .nino-social-icon-bebo { background-position: 0 -40px; }
+.nino-size-32 .nino-social-icon-behance { background-position: 0 -80px; }
+.nino-size-32 .nino-social-icon-blogger { background-position: 0 -120px; }
+.nino-size-32 .nino-social-icon-carbonmade { background-position: 0 -160px; }
+.nino-size-32 .nino-social-icon-delicious { background-position: 0 -200px; }
+.nino-size-32 .nino-social-icon-deviantart { background-position: 0 -240px; }
+.nino-size-32 .nino-social-icon-digg { background-position: 0 -280px; }
+.nino-size-32 .nino-social-icon-dribbble { background-position: 0 -320px; }
+.nino-size-32 .nino-social-icon-email { background-position: 0 -360px; }
+.nino-size-32 .nino-social-icon-etsy { background-position: 0 -400px; }
+.nino-size-32 .nino-social-icon-evernote { background-position: 0 -440px; }
+.nino-size-32 .nino-social-icon-facebook { background-position: 0 -480px; }
+.nino-size-32 .nino-social-icon-flickr { background-position: 0 -520px; }
+.nino-size-32 .nino-social-icon-forstorm { background-position: 0 -560px; }
+.nino-size-32 .nino-social-icon-forrst { background-position: 0 -600px; }
+.nino-size-32 .nino-social-icon-foursquare { background-position: 0 -640px; }
+.nino-size-32 .nino-social-icon-github { background-position: 0 -680px; }
+.nino-size-32 .nino-social-icon-google { background-position: 0 -720px; }
+.nino-size-32 .nino-social-icon-instagram,
+.nino-size-32 .nino-social-icon-followgram { background-position: 0 -760px; }
+.nino-size-32 .nino-social-icon-lastfm { background-position: 0 -800px; }
+.nino-size-32 .nino-social-icon-linkedIn,
+.nino-size-32 .nino-social-icon-linkedIn-company { background-position: 0 -840px; }
+.nino-size-32 .nino-social-icon-myspace { background-position: 0 -880px; }
+.nino-size-32 .nino-social-icon-orkut { background-position: 0 -920px; }
+.nino-size-32 .nino-social-icon-path { background-position: 0 -960px; }
+.nino-size-32 .nino-social-icon-pinterest { background-position: 0 -1000px; }
+.nino-size-32 .nino-social-icon-quora { background-position: 0 -1040px; }
+.nino-size-32 .nino-social-icon-reddit { background-position: 0 -1080px; }
+.nino-size-32 .nino-social-icon-rss { background-position: 0 -1120px; }
+.nino-size-32 .nino-social-icon-soundcloud { background-position: 0 -1160px; }
+.nino-size-32 .nino-social-icon-stumbleupon { background-position: 0 -1200px; }
+.nino-size-32 .nino-social-icon-technorati { background-position: 0 -1240px; }
+.nino-size-32 .nino-social-icon-tumblr { background-position: 0 -1280px; }
+.nino-size-32 .nino-social-icon-twitter { background-position: 0 -1320px; }
+.nino-size-32 .nino-social-icon-vimeo { background-position: 0 -1360px; }
+.nino-size-32 .nino-social-icon-wordpress { background-position: 0 -1400px; }
+.nino-size-32 .nino-social-icon-youtube,
+.nino-size-32 .nino-social-icon-youtube-channel { background-position: 0 -1440px; }
+
+/* =============== ICON 46 =============== */
+.nino-size-46 .nino-social-icon-aim { background-position: 0 0; }
+.nino-size-46 .nino-social-icon-bebo { background-position: 0 -50px; }
+.nino-size-46 .nino-social-icon-behance { background-position: 0 -100px; }
+.nino-size-46 .nino-social-icon-blogger { background-position: 0 -150px; }
+.nino-size-46 .nino-social-icon-carbonmade { background-position: 0 -200px; }
+.nino-size-46 .nino-social-icon-delicious { background-position: 0 -250px; }
+.nino-size-46 .nino-social-icon-deviantart { background-position: 0 -300px; }
+.nino-size-46 .nino-social-icon-digg { background-position: 0 -350px; }
+.nino-size-46 .nino-social-icon-dribbble { background-position: 0 -400px; }
+.nino-size-46 .nino-social-icon-email { background-position: 0 -450px; }
+.nino-size-46 .nino-social-icon-etsy { background-position: 0 -500px; }
+.nino-size-46 .nino-social-icon-evernote { background-position: 0 -550px; }
+.nino-size-46 .nino-social-icon-facebook { background-position: 0 -600px; }
+.nino-size-46 .nino-social-icon-flickr { background-position: 0 -650px; }
+.nino-size-46 .nino-social-icon-forstorm { background-position: 0 -700px; }
+.nino-size-46 .nino-social-icon-forrst { background-position: 0 -750px; }
+.nino-size-46 .nino-social-icon-foursquare { background-position: 0 -800px; }
+.nino-size-46 .nino-social-icon-github { background-position: 0 -850px; }
+.nino-size-46 .nino-social-icon-google { background-position: 0 -900px; }
+.nino-size-46 .nino-social-icon-instagram,
+.nino-size-46 .nino-social-icon-followgram { background-position: 0 -950px; }
+.nino-size-46 .nino-social-icon-lastfm { background-position: 0 -1000px; }
+.nino-size-46 .nino-social-icon-linkedIn,
+.nino-size-46 .nino-social-icon-linkedIn-company { background-position: 0 -1050px; }
+.nino-size-46 .nino-social-icon-myspace { background-position: 0 -1100px; }
+.nino-size-46 .nino-social-icon-orkut { background-position: 0 -1150px; }
+.nino-size-46 .nino-social-icon-path { background-position: 0 -1200px; }
+.nino-size-46 .nino-social-icon-pinterest { background-position: 0 -1250px; }
+.nino-size-46 .nino-social-icon-quora { background-position: 0 -1300px; }
+.nino-size-46 .nino-social-icon-reddit { background-position: 0 -1350px; }
+.nino-size-46 .nino-social-icon-rss { background-position: 0 -1400px; }
+.nino-size-46 .nino-social-icon-soundcloud { background-position: 0 -1450px; }
+.nino-size-46 .nino-social-icon-stumbleupon { background-position: 0 -1500px; }
+.nino-size-46 .nino-social-icon-technorati { background-position: 0 -1550px; }
+.nino-size-46 .nino-social-icon-tumblr { background-position: 0 -1600px; }
+.nino-size-46 .nino-social-icon-twitter { background-position: 0 -1650px; }
+.nino-size-46 .nino-social-icon-vimeo { background-position: 0 -1700px; }
+.nino-size-46 .nino-social-icon-wordpress { background-position: 0 -1750px; }
+.nino-size-46 .nino-social-icon-youtube,
+.nino-size-46 .nino-social-icon-youtube-channel { background-position: 0 -1800px; }
+
+/* =============== ICON 64 =============== */
+.nino-size-64 .nino-social-icon-aim { background-position: 0 0; }
+.nino-size-64 .nino-social-icon-bebo { background-position: 0 -70px; }
+.nino-size-64 .nino-social-icon-behance { background-position: 0 -140px; }
+.nino-size-64 .nino-social-icon-blogger { background-position: 0 -210px; }
+.nino-size-64 .nino-social-icon-carbonmade { background-position: 0 -280px; }
+.nino-size-64 .nino-social-icon-delicious { background-position: 0 -350px; }
+.nino-size-64 .nino-social-icon-deviantart { background-position: 0 -420px; }
+.nino-size-64 .nino-social-icon-digg { background-position: 0 -490px; }
+.nino-size-64 .nino-social-icon-dribbble { background-position: 0 -560px; }
+.nino-size-64 .nino-social-icon-email { background-position: 0 -630px; }
+.nino-size-64 .nino-social-icon-etsy { background-position: 0 -700px; }
+.nino-size-64 .nino-social-icon-evernote { background-position: 0 -770px; }
+.nino-size-64 .nino-social-icon-facebook { background-position: 0 -840px; }
+.nino-size-64 .nino-social-icon-flickr { background-position: 0 -910px; }
+.nino-size-64 .nino-social-icon-forstorm { background-position: 0 -980px; }
+.nino-size-64 .nino-social-icon-forrst { background-position: 0 -1050px; }
+.nino-size-64 .nino-social-icon-foursquare { background-position: 0 -1120px; }
+.nino-size-64 .nino-social-icon-github { background-position: 0 -1190px; }
+.nino-size-64 .nino-social-icon-google { background-position: 0 -1260px; }
+.nino-size-64 .nino-social-icon-instagram,
+.nino-size-64 .nino-social-icon-followgram { background-position: 0 -1330px; }
+.nino-size-64 .nino-social-icon-lastfm { background-position: 0 -1400px; }
+.nino-size-64 .nino-social-icon-linkedIn,
+.nino-size-64 .nino-social-icon-linkedIn-company { background-position: 0 -1470px; }
+.nino-size-64 .nino-social-icon-myspace { background-position: 0 -1540px; }
+.nino-size-64 .nino-social-icon-orkut { background-position: 0 -1610px; }
+.nino-size-64 .nino-social-icon-path { background-position: 0 -1680px; }
+.nino-size-64 .nino-social-icon-pinterest { background-position: 0 -1750px; }
+.nino-size-64 .nino-social-icon-quora { background-position: 0 -1820px; }
+.nino-size-64 .nino-social-icon-reddit { background-position: 0 -1890px; }
+.nino-size-64 .nino-social-icon-rss { background-position: 0 -1960px; }
+.nino-size-64 .nino-social-icon-soundcloud { background-position: -128px 0; }
+.nino-size-64 .nino-social-icon-stumbleupon { background-position: -128px -70px; }
+.nino-size-64 .nino-social-icon-technorati { background-position: -128px -140px; }
+.nino-size-64 .nino-social-icon-tumblr { background-position: -128px -210px; }
+.nino-size-64 .nino-social-icon-twitter { background-position: -128px -280px; }
+.nino-size-64 .nino-social-icon-vimeo { background-position: -128px -350px; }
+.nino-size-64 .nino-social-icon-wordpress { background-position: -128px -420px; }
+.nino-size-64 .nino-social-icon-youtube,
+.nino-size-64 .nino-social-icon-youtube-channel { background-position: -128px -490px; }
+
+/* =============== SOCIAL COPYRIGHT =============== */
+.nino-social-copyright {
+	margin: 10px 5px;
+}

@@ -1,0 +1,394 @@
+/* ============================== DEFAULT HTML ============================== */
+html, body {
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #545454;
+	font-size: 13.3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+hr {
+	border-left: none;
+	border-right: none;
+    border-top: 1px solid #E5E5E5;
+    color: #F4F4F4;
+    margin: 20px 0;
+    padding: 0;
+	clear: both;
+	width: 100%;
+}
+/* =============== DEFAULT HTML - LINK STYLES =============== */
+a {
+	text-decoration: none;
+	outline: none;
+	color: #257ED2;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+a:hover {
+	color: #257ED2;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+a img {
+	border: none;
+}
+/* =============== DEFAULT HTML - HEADING STYLES =============== */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+/* =============== DEFAULT HTML - LIST STYLES =============== */
+ul, ul li,
+ol, ol li,
+p, form, input {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin-bottom: 10px;
+}
+ul, ul li {
+	list-style: none;
+}
+/* =============== PREDEFINED CONTENT ALIGN =============== */
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.margin-left {
+	margin-left: 1em !important;
+	margin-right: 0;
+}
+.margin-right {
+	margin-left: 0;
+	margin-right: 1em !important;
+}
+.content-left {
+	text-align: left;
+}
+.content-center {
+	text-align: center;
+}
+.content-right {
+	text-align: right;	
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - GENERAL LAYOUT =============== */
+.clearafter:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+.clearbreak {
+	clear: both;
+}
+.title {
+	color: #399EBC;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #ddd;
+	text-align: left;
+}
+/* =============== LAYOUT - CONTENT AREA =============== */
+#master {
+	margin: 15px 15px 0 5px;
+	position: relative;
+}
+#master form button[type="submit"] {
+	background: #0C86C7;
+	color: #fff;
+	border: none;
+	padding: 9px 20px;
+	cursor: pointer;
+	font-size: 18px;
+	position: absolute;
+	top: 45px;
+	right: 0;
+}
+.socialPreview {
+	border-bottom: 1px dotted #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+.socialPreview #sortable {
+	padding-top: 120px;
+	margin-top: 25px;
+	background: url(../images/bg-preview.jpg);
+}
+.socialPreview #sortable li {
+	display: inline-block;
+	margin: 0 2px 2px 0;
+	cursor: move;
+}
+.socialPreview #sortable li a {
+	display: block;
+	cursor: move;
+}
+.socialShortcode,
+.socialCustomCode {
+	background: #fcf8f2;
+	border-left: 3px solid #f0ad4e;
+	padding: 20px;
+	margin: 20px 0;
+}
+.socialShortcode {
+	background: #f4f8fa;
+	border-color: #5bc0de;
+}
+.socialButton,
+.socialOrder,
+.socialOption {
+	float: left;
+	margin-right: 3%;
+}
+.socialButton {	
+	width: 50%;
+}
+.socialButton ul {
+	max-height: 580px;
+	overflow: auto;
+	padding-right: 10px;
+}
+.socialOption {
+	width: 47%;
+	margin-right: 0;
+}
+.socialButton ul li {
+	padding: 8px 0;
+	overflow: hidden;
+	border-bottom: 1px dotted #ddd;
+	display: block;
+	text-indent: 0px;
+}
+.socialButton label {	
+	position: relative;
+	top: 5px;
+	float: left;
+	cursor: pointer;
+}
+.socialButton .social-input {
+	margin-left: 140px;
+	text-align: right;
+}
+.socialButton input[type="checkbox"] {
+	float: left;
+	margin: 8px 15px 0 0;
+}
+.socialButton input[type="text"] {
+	width: 150px;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.socialButton li:nth-child(32) ~ li input[type="text"] {
+	width: 320px;
+}
+.socialOption .radioHidden ul li input[type="radio"] {
+	position: absolute;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.socialOption .radioHidden ul li label {
+	display: block;	
+	border: 1px solid #00ACED;
+	padding: 10px;
+	margin: 3px;
+	text-align: center;
+	line-height: 100%;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+.socialOption .radioHidden ul li label:hover {
+	background: rgba(0, 172, 237, 0.1);
+	color: #00ACED;
+}
+.socialOption .radioHidden ul li input[type="radio"]:checked + label {
+	background: rgba(0, 172, 237, 0.2);
+	color: #00ACED;
+}
+.socialOption .socialStyle {
+	margin-bottom: 30px;
+	text-align: center;	
+}
+.socialOption .socialStyle .socialImageStyle {
+	max-height: 225px;
+	overflow: auto;
+}
+.socialOption .socialStyle ul li {
+	float: left;
+	width: 20%;
+}
+.socialOption .socialStyle ul li img {
+	width: 46px;
+	height: auto;
+}
+.socialOption .socialEffect {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.socialOption .socialEffect ul li {
+	float: left;
+	width: 12.5%;
+}
+.socialOption .socialEffect ul li label {
+	display: block;
+	padding: 20px 0;
+	margin: 3px;
+	text-align: center;
+	border: 1px solid #00ACED;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+.socialOption .socialSize {
+	float: left;
+	width: 50%;
+	margin-right: 3%;
+}
+.socialOption .socialSize ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.socialOption .socialSize ul li label {
+	display: block;
+	display: table;
+	padding: 0;
+	text-align: center;
+	border: 1px solid #00ACED;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+.socialOption .socialSize ul li:nth-child(1) label {
+	width: 64px;
+	height: 64px;
+}
+.socialOption .socialSize ul li:nth-child(2) label {
+	width: 46px;
+	height: 46px;
+	font-size: 12px;
+}
+.socialOption .socialSize ul li:nth-child(3) label {
+	width: 32px;
+	height: 32px;
+	font-size: 10px;
+}
+.socialOption .socialSize ul li label span {
+	display: table-cell;
+	vertical-align: middle;
+}
+.socialOption .socialAlign {
+	float: left;
+	width: 47%;
+}
+.socialOption .socialAlign ul li {
+	float: left;
+	width: 33%;
+}
+.socialOption .socialAlign ul li label {
+	padding: 25px 0;
+}
+/* =============== SOCIAL INPUT SOURCE =============== */
+[class*="nino-social-input-"] {
+	display: inline-block;
+	padding-left: 20px;
+	line-height: 16px;
+	background: url(../images/nino-social-input.png) no-repeat;	
+}
+.nino-social-input-aim { background-position: 0 0; }
+.nino-social-input-bebo { background-position: 0 -20px; }
+.nino-social-input-behance { background-position: 0 -40px; }
+.nino-social-input-blogger { background-position: 0 -60px; }
+.nino-social-input-carbonmade { background-position: 0 -80px; }
+.nino-social-input-delicious { background-position: 0 -100px; }
+.nino-social-input-deviantart { background-position: 0 -120px; }
+.nino-social-input-digg { background-position: 0 -140px; }
+.nino-social-input-dribbble { background-position: 0 -160px; }
+.nino-social-input-email { background-position: 0 -180px; }
+.nino-social-input-etsy { background-position: 0 -200px; }
+.nino-social-input-evernote { background-position: 0 -220px; }
+.nino-social-input-facebook { background-position: 0 -240px; }
+.nino-social-input-flickr { background-position: 0 -260px; }
+.nino-social-input-forrst { background-position: 0 -280px; }
+.nino-social-input-forstorm { background-position: 0 -300px; }
+.nino-social-input-foursquare { background-position: 0 -320px; }
+.nino-social-input-github { background-position: 0 -340px; }
+.nino-social-input-google-plus { background-position: 0 -360px; }
+.nino-social-input-followgram,
+.nino-social-input-instagram { background-position: 0 -380px; }
+.nino-social-input-lastfm { background-position: 0 -400px; }
+.nino-social-input-linkedin,
+.nino-social-input-linkedin-company { background-position: 0 -420px; }
+.nino-social-input-myspace { background-position: 0 -440px; }
+.nino-social-input-orkut { background-position: 0 -460px; }
+.nino-social-input-path { background-position: 0 -480px; }
+.nino-social-input-pinterest { background-position: 0 -500px; }
+.nino-social-input-quora { background-position: 0 -520px; }
+.nino-social-input-reddit { background-position: 0 -540px; }
+.nino-social-input-rss { background-position: 0 -560px; }
+.nino-social-input-soundcloud { background-position: 0 -580px; }
+.nino-social-input-stumbleupon { background-position: 0 -600px; }
+.nino-social-input-technorati { background-position: 0 -620px; }
+.nino-social-input-tumblr { background-position: 0 -640px; }
+.nino-social-input-twitter { background-position: 0 -660px; }
+.nino-social-input-vimeo { background-position: 0 -680px; }
+.nino-social-input-wordpress { background-position: 0 -700px; }
+.nino-social-input-youtube { background-position: 0 -720px; }
+
+/* =============== COPYRIGHT =============== */
+.nino-copyright {
+	margin-top: 25px;
+}
+.nino-powered {
+	margin-top: 20px;
+}
+.nino-powered a {
+	text-decoration: underline;
+}
+.nino-icon-provider {
+	font-size: 11px;
+	margin-top: 10px;
+}
+/* =============== NINO MESSAGES =============== */
+[class*="nino-alert-"] {
+	margin-top: 30px;
+	padding: 8px 35px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	font-weight: bold;
+}
+.nino-alert-error {
+	color: #B94A48;
+	background: #F2DEDE;
+	border: 1px solid #EED3D7;
+}
+.nino-alert-success {
+	color: #3A87AD;
+	background: #D9EDF7;
+	border: 1px solid #BCE8F1;
+}
